@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the project....'
+                sh 'pwd' // Execute a shell command pwd
             }
         }
         stage('Test') {
