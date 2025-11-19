@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Building the project....'
                 sh 'pwd' // Execute a shell command pwd
+                sh 'ls -l' // Execute a shell command pwd
             }
         }
         stage('Test') {
